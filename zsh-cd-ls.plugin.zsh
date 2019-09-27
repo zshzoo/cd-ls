@@ -1,7 +1,8 @@
 # 'ls' after 'cd'
-function chpwd() {
-    if [[ -o interactive ]]; then
-        emulate -L zsh
-        \ls -FG
-    fi
+if ! (( $chpwd_functions[(I)chpwd_cdls] )); then
+  chpwd_functions+=(chpwd_cdls)
+fi
+function chpwd_cdls() {
+  emulate -L zsh
+  \ls -FG
 }
