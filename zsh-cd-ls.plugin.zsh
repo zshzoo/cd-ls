@@ -1,6 +1,6 @@
 # 'ls' after 'cd'
 function chpwd() {
-    if [[ -o login ]]; then
+    if [[ -o interactive ]]; then
         emulate -L zsh
         \ls -FG
     fi
