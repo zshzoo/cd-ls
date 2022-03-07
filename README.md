@@ -14,7 +14,7 @@ Why not make it automatic?
 
 To install using a Zsh plugin manager, add the following to your .zshrc
 
-- [pz]: `pz source zshzoo/cd-ls`
+- [antidote]: `antidote bundle zshzoo/cd-ls`
 - [zcomet]: `zcomet load zshzoo/cd-ls`
 - [zgenom]: `zgenom load zshzoo/cd-ls`
 - [znap]: `znap source zshzoo/cd-ls`
@@ -77,7 +77,7 @@ zstyle ':prezto:load' pmodule \
 [ohmyzsh]: https://github.com/ohmyzsh/ohmyzsh
 [prezto]: https://github.com/sorin-ionescu/prezto
 [zshzoo]: https://github.com/zshzoo/zshzoo
-[pz]: https://github.com/mattmc3/pz
+[antidote]: https://github.com/mattmc3/antidote
 [zcomet]: https://github.com/agkozak/zcomet
 [zgenom]: https://github.com/jandamm/zgenom
 [znap]: https://github.com/marlonrichert/zsh-snap
