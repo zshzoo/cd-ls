@@ -5,6 +5,6 @@ fi
 function chpwd_cdls() {
   if [[ -o interactive ]]; then
     emulate -L zsh
-    eval ${CD_LS_COMMAND:=ls}
+    eval ${CD_LS_COMMAND:-ls}
   fi
 }
