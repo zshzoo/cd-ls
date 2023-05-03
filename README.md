@@ -81,3 +81,8 @@ zstyle ':prezto:load' pmodule \
 [zcomet]: https://github.com/agkozak/zcomet
 [zgenom]: https://github.com/jandamm/zgenom
 [znap]: https://github.com/marlonrichert/zsh-snap
+
+## Configuration
+
+### `CD_LS_COMMAND`
+By setting the `CD_LS_COMMAND` environmental variable, you can customize the command to be executed right after `cd`. The command defaults to the standard `ls` in case the `CD_LS_COMMAND` variable is not set.
