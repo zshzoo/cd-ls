@@ -30,7 +30,7 @@ git clone https://github.com/zshzoo/cd-ls ${ZDOTDIR:-~}/.zplugins/cd-ls
 Then, in your .zshrc, add the following line:
 
 ```zsh
-source ${ZDOTDIR:-~}/.zplugins/cd-ls/cd-ls.zsh
+source ${ZDOTDIR:-~}/.zplugins/cd-ls/cd-ls.plugin.zsh
 ```
 
 ### Install for Oh-My-Zsh
